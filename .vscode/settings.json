@@ -1,0 +1,3 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/vcpkg/docs/examples/vcpkg_android_example_cmake"
+}

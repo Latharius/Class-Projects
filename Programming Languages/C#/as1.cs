@@ -11,10 +11,10 @@ namespace FirstCSOop {
   public class Program {
     
     public static void Main (string[] args) {
-      
       Dog dog = new Dog();
       Cat cat = new Cat();
       Bird bird = new Bird();
+
       dog.sing();
       dog.wash();
       dog.turnAround();
@@ -51,9 +51,7 @@ namespace FirstCSOop {
       boss.fly();
       boss.goToHyperspace();
       boss.land();
-      
     }
-    
   }
 
   public class SmallCraft : IUFO {
