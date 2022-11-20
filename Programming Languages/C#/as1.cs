@@ -54,48 +54,6 @@ namespace FirstCSOop {
     }
   }
 
-  public class SmallCraft : IUFO {
-    public void fly() {
-      Console.WriteLine("Small Craft is flying");
-    }
-
-    public void goToHyperspace() {
-      Console.WriteLine("Small Craft is going to Hyperspace");
-    }
-
-    public void land() {
-      Console.WriteLine("Small Craft is landing");
-    }
-  }
-
-  public class LargeCraft : IUFO {
-    public void fly() {
-      Console.WriteLine("Large Craft is flying");
-    }
-
-    public void goToHyperspace() {
-      Console.WriteLine("Large Craft is going to Hyperspace");
-    }
-
-    public void land() {
-      Console.WriteLine("Large Craft is landing");
-    }
-  }
-
-  public class BossCraft : IUFO {
-    public void fly() {
-      Console.WriteLine("Boss Craft is flying");
-    }
-
-    public void goToHyperspace() {
-      Console.WriteLine("Boss Craft is going to Hyperspace");
-    }
-
-    public void land() {
-      Console.WriteLine("Boss Craft is landing");
-    }
-  }
-
   public class Animal {
     
     public void move() {
@@ -159,5 +117,46 @@ namespace FirstCSOop {
     }
     
   }
-  
 }
+
+public class SmallCraft : IUFO {
+    public void fly() {
+      Console.WriteLine("Small Craft is flying");
+    }
+
+    public void goToHyperspace() {
+      Console.WriteLine("Small Craft is going to Hyperspace");
+    }
+
+    public void land() {
+      Console.WriteLine("Small Craft is landing");
+    }
+  }
+
+  public class LargeCraft : IUFO {
+    public void fly() {
+      Console.WriteLine("Large Craft is flying");
+    }
+
+    public void goToHyperspace() {
+      Console.WriteLine("Large Craft is going to Hyperspace");
+    }
+
+    public void land() {
+      Console.WriteLine("Large Craft is landing");
+    }
+  }
+
+  public class BossCraft : IUFO {
+    public void fly() {
+      Console.WriteLine("Boss Craft is flying");
+    }
+
+    public void goToHyperspace() {
+      Console.WriteLine("Boss Craft is going to Hyperspace");
+    }
+
+    public void land() {
+      Console.WriteLine("Boss Craft is landing");
+    }
+  }
