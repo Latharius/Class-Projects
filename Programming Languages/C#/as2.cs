@@ -60,7 +60,7 @@ namespace SecondCS{
 namespace SecondCS{
     public class TestProblem2{
         public static IEnumerable<int> merge(IEnumerable<int> input1, IEnumerable<int> input2, IEnumerable<int> input3, IEnumerable<int> input4){
-          IEnumerable<int> ret, ret2, ret3, ret4, ret5;
+          //IEnumerable<int> ret, ret2, ret3, ret4, ret5;
           
           ret2 = input1.Where(r => r % 10 == 0);
           ret3 = input2.Where(r => r % 10 == 0);
