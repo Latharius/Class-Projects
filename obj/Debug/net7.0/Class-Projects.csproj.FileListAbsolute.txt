@@ -1,0 +1,5 @@
+C:\Users\leith\OneDrive\Documents\GitHub\Class-Projects\obj\Debug\net7.0\Class-Projects.csproj.AssemblyReference.cache
+C:\Users\leith\OneDrive\Documents\GitHub\Class-Projects\obj\Debug\net7.0\Class-Projects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leith\OneDrive\Documents\GitHub\Class-Projects\obj\Debug\net7.0\Class-Projects.AssemblyInfoInputs.cache
+C:\Users\leith\OneDrive\Documents\GitHub\Class-Projects\obj\Debug\net7.0\Class-Projects.AssemblyInfo.cs
+C:\Users\leith\OneDrive\Documents\GitHub\Class-Projects\obj\Debug\net7.0\Class-Projects.csproj.CoreCompileInputs.cache

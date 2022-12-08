@@ -1,0 +1,81 @@
+<!-- Name: Leith Rabah
+     Course: CNT 4714 – Fall 2022 – Project Three
+     Assignment title:  A Three-Tier Distributed Web-Based Application
+     Date:  December 2, 2022
+ -->
+ 
+<web-app>
+	<servlet>
+		<servlet-name>root</servlet-name>
+		<servlet-class>project_4.rootUserServlet</servlet-class>
+	</servlet>
+
+        <servlet-mapping>
+            <servlet-name>root</servlet-name>
+            <url-pattern>/logic</url-pattern>
+        </servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>client</servlet-name>
+		<servlet-class>project_4.clientUserServlet</servlet-class>
+	</servlet>
+	
+        <servlet-mapping>
+            <servlet-name>client</servlet-name>
+            <url-pattern>/logicClient</url-pattern>
+        </servlet-mapping>
+	
+	
+	<!-- SUPPLIER -->
+	<servlet>
+		<servlet-name>Add Supplier record</servlet-name>
+		<servlet-class>project_4.addSupplierRecordServlet</servlet-class>
+	</servlet>
+	
+        <servlet-mapping>
+            <servlet-name>Add Supplier record</servlet-name>
+            <url-pattern>/addSupplierRecord</url-pattern>
+        </servlet-mapping> 
+	
+	
+	
+	<!-- PARTS -->
+	<servlet>
+		<servlet-name>Add Parts record</servlet-name>
+		<servlet-class>project_4.AddPartsRecordServlet</servlet-class>
+	</servlet>
+	
+        <servlet-mapping>
+            <servlet-name>Add Parts record</servlet-name>
+            <url-pattern>/addPartsRecord</url-pattern>
+        </servlet-mapping> 
+	
+	
+	
+	<!-- JOBS -->
+	<servlet>
+		<servlet-name>Add Job record</servlet-name>
+		<servlet-class>project_4.addJobRecordServlet</servlet-class>
+	</servlet>
+	
+        <servlet-mapping>
+            <servlet-name>Add Job record</servlet-name>
+            <url-pattern>/addJobRecord</url-pattern>
+        </servlet-mapping> 
+	
+	
+	
+	<!-- SHIPMENTs -->
+	<servlet>
+		<servlet-name>Add Shipment record</servlet-name>
+		<servlet-class>project_4.addShipmentsRecordServlet</servlet-class>
+	</servlet>
+	
+        <servlet-mapping>
+            <servlet-name>Add Shipment record</servlet-name>
+            <url-pattern>/addShipmentRecord</url-pattern>
+        </servlet-mapping> 
+	
+	
+</web-app>
